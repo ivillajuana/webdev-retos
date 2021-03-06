@@ -11,7 +11,7 @@ desarrolladores Full Stack de Discord. La propuesta es la siguiente:
 Antes que nada, generé un nuevo proyecto de *html* al cual llamé **css3-flex** con una estructura similar
 a la siguiente:
 
-...```html```
+```html
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -26,13 +26,12 @@ a la siguiente:
   
   </body>
 </html>
-...
+```
 
 Ahora bien, el diseño sugerido es un contenedor que a su vez aloja 9 contenedores dentro de sí. Ésto
-podemos resolverlo fácilmente añadiendo un contenedor **<div>** y dentro de éste añadir los
-restantes de la siguiente manera:
+podemos resolverlo fácilmente añadiendo un contenedor **<div>** y los restantes dentro de éste:
 
-... ```html```
+```html
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -45,11 +44,20 @@ restantes de la siguiente manera:
   
   <body>
     <div>
-      </div></div>
+      </div>1</div>
+      </div>2</div>
+      </div>3</div>
+      </div>4</div>
+      </div>5</div>
+      </div>6</div>
+      </div>7</div>
+      </div>8</div>
+      </div>9</div>
     </div>  
   </body>
 </html>
-...
+```
+
 ## Añadiendo estilos con CSS
 
 ## ¿Y ahora, cómo movemos el texto?
