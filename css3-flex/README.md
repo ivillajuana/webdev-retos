@@ -29,7 +29,10 @@ a la siguiente:
 ```
 
 Ahora bien, el diseño sugerido es un contenedor que a su vez aloja 9 contenedores dentro de sí. Ésto
-podemos resolverlo fácilmente añadiendo un contenedor **<div>** y los restantes dentro de éste:
+podemos construirlo fácilmente añadiendo un contenedor **div** 
+principal y otros 9 dentro de él. Para tener una visualización temporal en el sitio web, añadí 
+números a cada contenedor interno y agregué algunas clases que serán útiles
+al trabajar con los estilos:
 
 ```html
 <!DOCTYPE html>
@@ -43,21 +46,34 @@ podemos resolverlo fácilmente añadiendo un contenedor **<div>** y los restante
   </head>
   
   <body>
-    <div>
-      </div>1</div>
-      </div>2</div>
-      </div>3</div>
-      </div>4</div>
-      </div>5</div>
-      </div>6</div>
-      </div>7</div>
-      </div>8</div>
-      </div>9</div>
+    <div class="flexbox-container">
+      <div class="box tl">1</div>
+      <div class="box tc">2</div>
+      <div class="box tr">3</div>
+      <div class="box cl">4</div>
+      <div class="box c">5</div>
+      <div class="box cr">6</div>
+      <div class="box bl">7</div>
+      <div class="box bc">8</div>
+      <div class="box br">9</div>
     </div>  
   </body>
 </html>
 ```
 
+
+
 ## Añadiendo estilos con CSS
+
+Una vez que tenemos lista nuestra estructura inicial, podemos agregar algo de estilos a nuestro diseño. Para
+empezar, si abrimos la página web en su estado actual notaremos es imposible determinar dónde
+termina un contenedor y termina el siguiente. 
+
+``` css
+
+
+```
+
+
 
 ## ¿Y ahora, cómo movemos el texto?
