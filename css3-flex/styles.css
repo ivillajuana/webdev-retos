@@ -1,0 +1,46 @@
+body {
+  height: 100vh;
+  margin: 0;
+}
+
+.flex-container {
+  background-color: #212529;
+  display: flex;
+  flex-wrap: wrap;
+  height: 100vh;
+  justify-content: center;
+  margin: 0;
+  width: 100vw;
+}
+
+.box {
+  background-color: #fff;
+  color: #212529;
+  font-size: 2rem;
+  height: 29vh;
+  margin: 10px;
+  width: 30vw;
+}
+
+.tl, .cl, .bl {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.tc, .c, .bc {
+  display: flex;
+  justify-content: center;
+}
+
+.tr, .cr, .br {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.cl, .c, .cr{
+  align-items: center;
+}
+
+.bl, .bc, .br{
+  align-items: flex-end;
+}
